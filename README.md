@@ -28,14 +28,24 @@ O modelo possui **alta adaptabilidade**, ajustando as regras conforme o perfil d
 ## Overview 
 
 O temas escolhidos foram:
+
 **1.** Lógica Fuzzy aplicada a finanças;
+
 **2.** Perfil de risco de investidores;
+
 **3.** Volatilidade do mercado de ativos;
+
 **4.** Entre outros.
 
 
 ## Colaboradores 
 
 Ana Paula Monteiro 
+
 Jayni Bitencourt Lima 
+
 Lucas Navis 
+
+
+
+
