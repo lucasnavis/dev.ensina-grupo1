@@ -25,16 +25,16 @@ O estudo é pensado para qualquer investidor: do **conservador ao arriscado**.
 O modelo possui **alta adaptabilidade**, ajustando as regras conforme o perfil do investidor e o contexto de mercado.
 
 
-### Overview 
+## Overview 
 
 O temas escolhidos foram:
 **1.** Lógica Fuzzy aplicada a finanças;
-**2.** Perfil de risco de investidores: 
-**3.**
-**4.**
+**2.** Perfil de risco de investidores;
+**3.** Volatilidade do mercado de ativos;
+**4.** Entre outros.
 
 
-#### Colaboradores 
+## Colaboradores 
 
 Ana Paula Monteiro 
 Jayni Bitencourt Lima 
