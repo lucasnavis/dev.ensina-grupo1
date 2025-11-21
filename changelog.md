@@ -12,5 +12,6 @@ lucasnavis, 26/10/25
 Desde a última modificação, o grupo realizou reuniões acerca de como encontrar aplicações para Fuzzy em finanças. Conversamos com membros da entidade que indicaram fontes de estudo para compreender melhor Fuzzy e Markowitz, que estão sendo estudadas pelos membros ao longo das semanas que passaram.
 
 Ademais, também foi determinado que os dados para análise serão extraídos da S&P500. Foi um período para delimitar melhor o projeto e compreender mais profundamente a teoria por trás, a fim de começar a construir algo com uma base mais consolidada.
+
 AnaPaula-Monteiro
 ##
