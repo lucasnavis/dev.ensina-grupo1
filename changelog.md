@@ -5,7 +5,7 @@ O changelog do projeto será sempre atualizado a cada domingo, revisando o que f
 
 lucasnavis
 ## 
----
+
 
 # Versão 0.1.1 - 21/11/25
 
@@ -23,4 +23,12 @@ Nesta semana, aprofundamos o estudo do modelo de Markowitz, que será posteriorm
 Além disso, começamos a estudar como estruturar a função main do projeto em Python e a pesquisar formas de extrair os dados das empresas do S&P500.
 
 jaynilima
+##
+# Versão 0.1.3 - 06/12/25
+
+Hoje implementamos o que vai vir a ser o 'backbone' do nosso projeto: o main.py com as devidas bibliotecas que vamos utilizar para a montagem do projeto (e também, o requirements.txt para orientar quais versões das bibliotecas devem ser instaladas).
+
+Continuamos no estudo teórico do modelo de Markowitz e lógica fuzzy, e procurando, o quanto antes, iniciar a aplicação prática com o auxílio dos demais membros da entidade.
+
+lucasnavis
 ##
