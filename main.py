@@ -1,5 +1,5 @@
 """
-Portfolio Optimization with Markowitz Model
+Portfolio Optimization com Markowitz Model
 Dev.Ensina - Grupo 1
 15/10/2025 - xx/xx/2026?
 """
