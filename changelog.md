@@ -32,3 +32,12 @@ Continuamos no estudo teórico do modelo de Markowitz e lógica fuzzy, e procura
 
 lucasnavis
 ##
+
+# Versão 0.1.4 - 19/12/25
+
+Durante a semana, os membros se reuniram com um integrante da comunidade Dev para apresentar as ideias e discutir os próximos passos do trabalho. Conversamos sobre buscar apoio de membros que já tenham experiência com fuzzy e, futuramente, explorar uma abordagem neuro-fuzzy. 
+
+Paralelamente, aprofundamos nossos estudos em Python, focando no conteúdo necessário para avançar de forma prática no projeto, e intensificamos o estudo dos métodos Markowitz e Fuzzy. Além disso, iniciamos a construção dos slides da apresentação, que será desenvolvida na plataforma Canva.
+
+jaynilima
+##
