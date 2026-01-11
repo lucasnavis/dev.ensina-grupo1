@@ -47,5 +47,5 @@ jaynilima
 Nas últimas 3 semanas reunimos os dados necessários para os próximos passos do projeto e determinamos as tarefas para a próxima semana. Ademais, realizamos algumas reuniões com membros antigos da dev para traçar os próximos passos e checar possíveis erros na coleta dos dados.
 
 Avançamos também na criação dos slides no Canva.
-##
 AnaPaula-Monteiro
+##
