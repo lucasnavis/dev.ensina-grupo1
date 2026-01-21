@@ -22,7 +22,7 @@ Com isso, **permite melhor otimização e adaptabilidade de carteiras em diverso
 ## Para quem o projeto serve?
 
 O estudo é pensado para qualquer investidor: do **conservador ao arriscado**.
-O modelo possui **alta adaptabilidade**, ajustando as regras conforme o perfil do investidor e o contexto de mercado.
+O modelo possui **alta adaptabilidade**, ajustando as regras conforme os perfis dos investidores (perfis esses que são representados como vetores de exposição-alvo por classe de ativos, inspirados nos Morningstar Target Risk Indexes. Esses vetores são utilizados como âncoras estruturais para a alocação, permitindo ajustes dinâmicos baseados em condições de mercado sem violar o perfil de risco originalmente definido) e o contexto dos mercados.
 
 
 ## Overview 
