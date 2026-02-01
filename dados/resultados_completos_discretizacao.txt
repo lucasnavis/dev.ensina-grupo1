@@ -1,0 +1,2220 @@
+
+================================================================================
+RESULTADOS: NORMAL_ADA_H1
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.006234911447755118, 'l2_leaf_reg': 7.815388289033864, 'bagging_temperature': 0.061940248826961974}
+Acur�cia: 33.09%
+F1-Score Macro: 0.2732
+Log Loss (Cross-Entropy): 1.1011
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.27      0.07      0.11        86
+           1       0.31      0.20      0.25        98
+           2       0.34      0.70      0.46        94
+
+    accuracy                           0.33       278
+   macro avg       0.31      0.33      0.27       278
+weighted avg       0.31      0.33      0.28       278
+
+
+Matriz de Confus�o:
+[[ 6 24 56]
+ [ 8 20 70]
+ [ 8 20 66]]
+
+Import�ncia das Vari�veis:
+autocorr_30d    22.438736
+mom_7d          21.632398
+vov_60d         20.538786
+dd_dur_60d      18.361131
+fgi_vol_30d     17.028949
+
+================================================================================
+RESULTADOS: FUZZY_ADA_H1
+================================================================================
+Melhores Par�metros: {'depth': 4, 'learning_rate': 0.014628752321677877, 'l2_leaf_reg': 23.6927598027113, 'bagging_temperature': 0.6891090388809067}
+Acur�cia: 38.49%
+F1-Score Macro: 0.3368
+Log Loss (Cross-Entropy): 1.0962
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.29      0.07      0.11        86
+           1       0.41      0.56      0.47        98
+           2       0.37      0.49      0.42        94
+
+    accuracy                           0.38       278
+   macro avg       0.36      0.37      0.34       278
+weighted avg       0.36      0.38      0.35       278
+
+
+Matriz de Confus�o:
+[[ 6 41 39]
+ [ 5 55 38]
+ [10 38 46]]
+
+Import�ncia das Vari�veis:
+ac_negative      14.119299
+stress_mid       12.530810
+vol_high         10.935096
+macro_stress      8.579552
+trend_bear        6.576146
+vol_mid           6.354716
+stress_low        6.236720
+vol_low           6.093830
+macro_neutral     5.890394
+trend_neutral     5.624380
+macro_calm        4.683028
+stress_high       4.572297
+trend_bull        3.027032
+ac_positive       2.668915
+ac_neutral        2.107784
+
+================================================================================
+RESULTADOS: NORMAL_ADA_H7
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.007062750184354142, 'l2_leaf_reg': 1.37003936129258, 'bagging_temperature': 0.7294424554996223}
+Acur�cia: 29.96%
+F1-Score Macro: 0.2935
+Log Loss (Cross-Entropy): 1.2294
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.43      0.16      0.24        99
+           1       0.23      0.44      0.31        81
+           2       0.36      0.32      0.34        97
+
+    accuracy                           0.30       277
+   macro avg       0.34      0.31      0.29       277
+weighted avg       0.35      0.30      0.29       277
+
+
+Matriz de Confus�o:
+[[16 65 18]
+ [ 8 36 37]
+ [13 53 31]]
+
+Import�ncia das Vari�veis:
+vov_60d         22.370020
+dd_dur_60d      21.491294
+fgi_vol_30d     20.106815
+autocorr_30d    19.112531
+mom_7d          16.919340
+
+================================================================================
+RESULTADOS: FUZZY_ADA_H7
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.008432795035387415, 'l2_leaf_reg': 27.86467209569195, 'bagging_temperature': 0.38662913238898766}
+Acur�cia: 32.85%
+F1-Score Macro: 0.2901
+Log Loss (Cross-Entropy): 1.1412
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.48      0.10      0.17        99
+           1       0.22      0.26      0.24        81
+           2       0.37      0.62      0.47        97
+
+    accuracy                           0.33       277
+   macro avg       0.36      0.33      0.29       277
+weighted avg       0.37      0.33      0.29       277
+
+
+Matriz de Confus�o:
+[[10 42 47]
+ [ 6 21 54]
+ [ 5 32 60]]
+
+Import�ncia das Vari�veis:
+stress_low       12.696813
+ac_negative      11.901866
+vol_high         11.490911
+stress_mid       10.395907
+macro_stress      9.526827
+macro_neutral     7.697466
+vol_mid           7.349884
+vol_low           6.875878
+macro_calm        5.945763
+trend_bull        3.226765
+stress_high       3.195004
+trend_bear        2.877497
+ac_positive       2.737173
+trend_neutral     2.403559
+ac_neutral        1.678686
+
+================================================================================
+RESULTADOS: NORMAL_ADA_H30
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.03383718332954458, 'l2_leaf_reg': 16.04648103205397, 'bagging_temperature': 0.21042942813867455}
+Acur�cia: 31.25%
+F1-Score Macro: 0.2599
+Log Loss (Cross-Entropy): 1.2203
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.10      0.10      0.10        62
+           1       0.49      0.16      0.24       104
+           2       0.35      0.58      0.44       106
+
+    accuracy                           0.31       272
+   macro avg       0.31      0.28      0.26       272
+weighted avg       0.34      0.31      0.29       272
+
+
+Matriz de Confus�o:
+[[ 6  7 49]
+ [19 17 68]
+ [33 11 62]]
+
+Import�ncia das Vari�veis:
+dd_dur_60d      30.245813
+vov_60d         26.152065
+fgi_vol_30d     18.811690
+autocorr_30d    17.706418
+mom_7d           7.084014
+
+================================================================================
+RESULTADOS: FUZZY_ADA_H30
+================================================================================
+Melhores Par�metros: {'depth': 4, 'learning_rate': 0.005003927633275565, 'l2_leaf_reg': 15.832299185995355, 'bagging_temperature': 0.8910474334473961}
+Acur�cia: 31.99%
+F1-Score Macro: 0.2390
+Log Loss (Cross-Entropy): 1.1404
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        62
+           1       0.31      0.19      0.24       104
+           2       0.39      0.63      0.48       106
+
+    accuracy                           0.32       272
+   macro avg       0.23      0.27      0.24       272
+weighted avg       0.27      0.32      0.28       272
+
+
+Matriz de Confus�o:
+[[ 0 20 42]
+ [20 20 64]
+ [14 25 67]]
+
+Import�ncia das Vari�veis:
+stress_low       16.999002
+ac_negative      13.439479
+stress_mid       10.118034
+stress_high      10.064842
+macro_calm       10.033881
+vol_mid           9.777220
+vol_high          8.776359
+macro_neutral     6.442591
+macro_stress      6.397868
+vol_low           5.782249
+ac_positive       0.971788
+ac_neutral        0.572237
+trend_bull        0.316234
+trend_bear        0.171267
+trend_neutral     0.136951
+
+================================================================================
+RESULTADOS: NORMAL_AVAX_H1
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.009445600138094694, 'l2_leaf_reg': 5.5365665194923075, 'bagging_temperature': 0.18340450985343382}
+Acur�cia: 39.93%
+F1-Score Macro: 0.3435
+Log Loss (Cross-Entropy): 1.1371
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.38      0.11      0.17        91
+           1       0.42      0.69      0.52       110
+           2       0.35      0.32      0.34        77
+
+    accuracy                           0.40       278
+   macro avg       0.38      0.38      0.34       278
+weighted avg       0.39      0.40      0.36       278
+
+
+Matriz de Confus�o:
+[[10 58 23]
+ [10 76 24]
+ [ 6 46 25]]
+
+Import�ncia das Vari�veis:
+autocorr_30d    21.071195
+mom_7d          21.043423
+vov_60d         20.273486
+dd_dur_60d      19.215870
+fgi_vol_30d     18.396026
+
+================================================================================
+RESULTADOS: FUZZY_AVAX_H1
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.020910334527056647, 'l2_leaf_reg': 1.025505704531822, 'bagging_temperature': 0.9694262746877399}
+Acur�cia: 34.53%
+F1-Score Macro: 0.3328
+Log Loss (Cross-Entropy): 1.1765
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.36      0.23      0.28        91
+           1       0.38      0.45      0.41       110
+           2       0.29      0.32      0.31        77
+
+    accuracy                           0.35       278
+   macro avg       0.34      0.34      0.33       278
+weighted avg       0.35      0.35      0.34       278
+
+
+Matriz de Confus�o:
+[[21 41 29]
+ [28 50 32]
+ [10 42 25]]
+
+Import�ncia das Vari�veis:
+vol_high         10.091327
+ac_negative       9.160102
+macro_neutral     8.415590
+trend_bear        8.351524
+macro_stress      8.144986
+macro_calm        8.017356
+stress_mid        6.864346
+trend_bull        6.716697
+vol_mid           6.539637
+stress_low        6.365824
+ac_positive       6.068358
+vol_low           5.720310
+ac_neutral        3.988210
+trend_neutral     3.129501
+stress_high       2.426233
+
+================================================================================
+RESULTADOS: NORMAL_AVAX_H7
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.01047651887309478, 'l2_leaf_reg': 28.896033254635846, 'bagging_temperature': 0.7002878332497944}
+Acur�cia: 38.27%
+F1-Score Macro: 0.3443
+Log Loss (Cross-Entropy): 1.1041
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       1.00      0.11      0.19        95
+           1       0.35      0.63      0.45        99
+           2       0.38      0.41      0.39        83
+
+    accuracy                           0.38       277
+   macro avg       0.58      0.38      0.34       277
+weighted avg       0.58      0.38      0.34       277
+
+
+Matriz de Confus�o:
+[[10 66 19]
+ [ 0 62 37]
+ [ 0 49 34]]
+
+Import�ncia das Vari�veis:
+vov_60d         26.034817
+autocorr_30d    20.084405
+dd_dur_60d      19.825996
+fgi_vol_30d     19.739498
+mom_7d          14.315283
+
+================================================================================
+RESULTADOS: FUZZY_AVAX_H7
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.014084062259125492, 'l2_leaf_reg': 5.658571448921574, 'bagging_temperature': 0.7420190409735984}
+Acur�cia: 36.10%
+F1-Score Macro: 0.2807
+Log Loss (Cross-Entropy): 1.1908
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.50      0.13      0.20        95
+           1       0.37      0.81      0.50        99
+           2       0.23      0.10      0.14        83
+
+    accuracy                           0.36       277
+   macro avg       0.37      0.34      0.28       277
+weighted avg       0.37      0.36      0.29       277
+
+
+Matriz de Confus�o:
+[[12 69 14]
+ [ 6 80 13]
+ [ 6 69  8]]
+
+Import�ncia das Vari�veis:
+vol_high         12.664046
+macro_stress      9.991929
+ac_negative       9.588032
+stress_low        9.104971
+stress_mid        9.067666
+vol_mid           8.886813
+macro_neutral     8.646915
+macro_calm        8.046522
+vol_low           6.152929
+stress_high       3.773054
+ac_positive       3.551651
+trend_bull        3.481407
+trend_bear        3.450831
+ac_neutral        1.810225
+trend_neutral     1.783008
+
+================================================================================
+RESULTADOS: NORMAL_AVAX_H30
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.06997609968724441, 'l2_leaf_reg': 5.0558089118723775, 'bagging_temperature': 0.25979280603465876}
+Acur�cia: 38.60%
+F1-Score Macro: 0.3802
+Log Loss (Cross-Entropy): 1.3076
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.24      0.57      0.34        46
+           1       0.83      0.20      0.32       150
+           2       0.38      0.64      0.48        76
+
+    accuracy                           0.39       272
+   macro avg       0.49      0.47      0.38       272
+weighted avg       0.61      0.39      0.37       272
+
+
+Matriz de Confus�o:
+[[26  1 19]
+ [60 30 60]
+ [22  5 49]]
+
+Import�ncia das Vari�veis:
+vov_60d         27.256860
+dd_dur_60d      24.915073
+fgi_vol_30d     19.007468
+autocorr_30d    17.180394
+mom_7d          11.640205
+
+================================================================================
+RESULTADOS: FUZZY_AVAX_H30
+================================================================================
+Melhores Par�metros: {'depth': 5, 'learning_rate': 0.01913784973475802, 'l2_leaf_reg': 7.775537475185892, 'bagging_temperature': 0.8313371875284842}
+Acur�cia: 34.19%
+F1-Score Macro: 0.3419
+Log Loss (Cross-Entropy): 1.1078
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.21      0.63      0.32        46
+           1       0.90      0.17      0.29       150
+           2       0.36      0.50      0.42        76
+
+    accuracy                           0.34       272
+   macro avg       0.49      0.43      0.34       272
+weighted avg       0.63      0.34      0.33       272
+
+
+Matriz de Confus�o:
+[[29  3 14]
+ [71 26 53]
+ [38  0 38]]
+
+Import�ncia das Vari�veis:
+stress_low       13.121752
+ac_negative      11.532505
+stress_mid       11.163329
+vol_low           9.971424
+stress_high       9.095678
+vol_high          8.858523
+vol_mid           8.542772
+macro_stress      8.390317
+macro_calm        8.110236
+macro_neutral     5.029940
+ac_positive       3.013999
+trend_bear        0.972963
+ac_neutral        0.822630
+trend_neutral     0.790122
+trend_bull        0.583812
+
+================================================================================
+RESULTADOS: NORMAL_BNB_H1
+================================================================================
+Melhores Par�metros: {'depth': 6, 'learning_rate': 0.04170553216181044, 'l2_leaf_reg': 0.7154763794444932, 'bagging_temperature': 0.9699098521619943}
+Acur�cia: 32.73%
+F1-Score Macro: 0.2959
+Log Loss (Cross-Entropy): 1.3057
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.21      0.23      0.22        56
+           1       0.59      0.34      0.43       172
+           2       0.17      0.40      0.24        50
+
+    accuracy                           0.33       278
+   macro avg       0.32      0.32      0.30       278
+weighted avg       0.44      0.33      0.35       278
+
+
+Matriz de Confus�o:
+[[13 21 22]
+ [39 58 75]
+ [11 19 20]]
+
+Import�ncia das Vari�veis:
+mom_7d          26.371487
+autocorr_30d    21.990563
+vov_60d         19.403902
+fgi_vol_30d     19.256581
+dd_dur_60d      12.977468
+
+================================================================================
+RESULTADOS: FUZZY_BNB_H1
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.02080842965177251, 'l2_leaf_reg': 18.65862970231689, 'bagging_temperature': 0.0016639334118649174}
+Acur�cia: 39.93%
+F1-Score Macro: 0.3301
+Log Loss (Cross-Entropy): 1.0951
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.24      0.12      0.16        56
+           1       0.67      0.45      0.54       172
+           2       0.20      0.52      0.29        50
+
+    accuracy                           0.40       278
+   macro avg       0.37      0.37      0.33       278
+weighted avg       0.50      0.40      0.42       278
+
+
+Matriz de Confus�o:
+[[ 7 20 29]
+ [17 78 77]
+ [ 5 19 26]]
+
+Import�ncia das Vari�veis:
+ac_negative      10.209008
+macro_calm        9.486556
+trend_neutral     8.951317
+vol_low           8.440602
+trend_bull        8.165337
+stress_mid        7.829562
+vol_high          7.587713
+macro_neutral     7.069788
+vol_mid           7.042713
+macro_stress      6.910242
+trend_bear        5.646509
+stress_high       4.931378
+ac_positive       4.191352
+stress_low        2.094429
+ac_neutral        1.443494
+
+================================================================================
+RESULTADOS: NORMAL_BNB_H7
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.0770543993744532, 'l2_leaf_reg': 5.9780721008237245, 'bagging_temperature': 0.6102491160875034}
+Acur�cia: 29.60%
+F1-Score Macro: 0.2933
+Log Loss (Cross-Entropy): 1.4458
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.21      0.39      0.27        57
+           1       0.63      0.21      0.31       177
+           2       0.20      0.53      0.29        43
+
+    accuracy                           0.30       277
+   macro avg       0.35      0.38      0.29       277
+weighted avg       0.48      0.30      0.30       277
+
+
+Matriz de Confus�o:
+[[22 15 20]
+ [70 37 70]
+ [13  7 23]]
+
+Import�ncia das Vari�veis:
+vov_60d         24.300696
+autocorr_30d    19.521951
+dd_dur_60d      19.402036
+fgi_vol_30d     18.595542
+mom_7d          18.179775
+
+================================================================================
+RESULTADOS: FUZZY_BNB_H7
+================================================================================
+Melhores Par�metros: {'depth': 5, 'learning_rate': 0.0068094787626348935, 'l2_leaf_reg': 27.77441034847312, 'bagging_temperature': 0.9994134940876853}
+Acur�cia: 31.05%
+F1-Score Macro: 0.3086
+Log Loss (Cross-Entropy): 1.1234
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.37      0.32      0.34        57
+           1       0.60      0.27      0.37       177
+           2       0.14      0.49      0.22        43
+
+    accuracy                           0.31       277
+   macro avg       0.37      0.36      0.31       277
+weighted avg       0.48      0.31      0.34       277
+
+
+Matriz de Confus�o:
+[[ 18  19  20]
+ [ 21  47 109]
+ [ 10  12  21]]
+
+Import�ncia das Vari�veis:
+stress_mid       11.411949
+vol_high         10.844971
+vol_low          10.792567
+stress_high      10.767596
+macro_stress      9.000794
+ac_negative       8.430056
+vol_mid           8.261584
+macro_neutral     8.036288
+macro_calm        5.987015
+trend_bull        5.734051
+trend_bear        4.000091
+stress_low        2.613139
+ac_positive       2.350343
+trend_neutral     1.290416
+ac_neutral        0.479139
+
+================================================================================
+RESULTADOS: NORMAL_BNB_H30
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.09881946598579197, 'l2_leaf_reg': 0.4794539235256705, 'bagging_temperature': 0.8649674716359107}
+Acur�cia: 27.94%
+F1-Score Macro: 0.2733
+Log Loss (Cross-Entropy): 2.0708
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.20      0.56      0.30        16
+           1       0.86      0.21      0.34       231
+           2       0.11      0.72      0.18        25
+
+    accuracy                           0.28       272
+   macro avg       0.39      0.50      0.27       272
+weighted avg       0.75      0.28      0.32       272
+
+
+Matriz de Confus�o:
+[[  9   1   6]
+ [ 36  49 146]
+ [  0   7  18]]
+
+Import�ncia das Vari�veis:
+dd_dur_60d      26.259135
+vov_60d         21.989423
+autocorr_30d    20.669744
+fgi_vol_30d     17.098275
+mom_7d          13.983422
+
+================================================================================
+RESULTADOS: FUZZY_BNB_H30
+================================================================================
+Melhores Par�metros: {'depth': 4, 'learning_rate': 0.0376130558590777, 'l2_leaf_reg': 14.743466195054925, 'bagging_temperature': 0.6118349639352992}
+Acur�cia: 34.19%
+F1-Score Macro: 0.2584
+Log Loss (Cross-Entropy): 1.1739
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.04      0.12      0.06        16
+           1       0.92      0.29      0.45       231
+           2       0.16      0.92      0.27        25
+
+    accuracy                           0.34       272
+   macro avg       0.37      0.45      0.26       272
+weighted avg       0.80      0.34      0.41       272
+
+
+Matriz de Confus�o:
+[[  2   4  10]
+ [ 52  68 111]
+ [  0   2  23]]
+
+Import�ncia das Vari�veis:
+stress_mid       17.760113
+stress_high      15.838434
+ac_negative      14.754927
+vol_low           8.267029
+vol_high          7.240221
+macro_neutral     6.911284
+stress_low        6.210374
+vol_mid           5.730902
+macro_stress      5.537633
+macro_calm        5.157079
+trend_bull        2.095731
+ac_positive       1.475328
+trend_bear        1.198199
+trend_neutral     1.145336
+ac_neutral        0.677408
+
+================================================================================
+RESULTADOS: NORMAL_BTC_H1
+================================================================================
+Melhores Par�metros: {'depth': 4, 'learning_rate': 0.07055764580006674, 'l2_leaf_reg': 10.391137139255274, 'bagging_temperature': 0.7989748701494483}
+Acur�cia: 30.58%
+F1-Score Macro: 0.3020
+Log Loss (Cross-Entropy): 1.1949
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.25      0.57      0.35        72
+           1       0.59      0.14      0.22       139
+           2       0.31      0.37      0.34        67
+
+    accuracy                           0.31       278
+   macro avg       0.38      0.36      0.30       278
+weighted avg       0.44      0.31      0.28       278
+
+
+Matriz de Confus�o:
+[[41 10 21]
+ [85 19 35]
+ [39  3 25]]
+
+Import�ncia das Vari�veis:
+mom_7d          22.515825
+dd_dur_60d      20.394495
+vov_60d         19.670097
+autocorr_30d    19.225170
+fgi_vol_30d     18.194413
+
+================================================================================
+RESULTADOS: FUZZY_BTC_H1
+================================================================================
+Melhores Par�metros: {'depth': 6, 'learning_rate': 0.04170553216181044, 'l2_leaf_reg': 0.7154763794444932, 'bagging_temperature': 0.9699098521619943}
+Acur�cia: 30.94%
+F1-Score Macro: 0.3064
+Log Loss (Cross-Entropy): 1.2469
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.24      0.39      0.30        72
+           1       0.50      0.26      0.34       139
+           2       0.24      0.33      0.28        67
+
+    accuracy                           0.31       278
+   macro avg       0.33      0.33      0.31       278
+weighted avg       0.37      0.31      0.32       278
+
+
+Matriz de Confus�o:
+[[28 21 23]
+ [57 36 46]
+ [30 15 22]]
+
+Import�ncia das Vari�veis:
+vol_low          9.806158
+vol_mid          8.816125
+trend_bull       8.594059
+macro_calm       8.149285
+macro_neutral    8.062364
+ac_negative      7.872273
+trend_bear       7.825221
+macro_stress     7.572132
+stress_low       6.048128
+vol_high         5.593372
+stress_mid       5.196977
+trend_neutral    5.131213
+ac_positive      4.885676
+stress_high      3.517005
+ac_neutral       2.930012
+
+================================================================================
+RESULTADOS: NORMAL_BTC_H7
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.06377099174417342, 'l2_leaf_reg': 28.343685300325248, 'bagging_temperature': 0.21785031633907737}
+Acur�cia: 33.94%
+F1-Score Macro: 0.3368
+Log Loss (Cross-Entropy): 1.2159
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.25      0.56      0.35        62
+           1       0.49      0.26      0.34       145
+           2       0.34      0.30      0.32        70
+
+    accuracy                           0.34       277
+   macro avg       0.36      0.38      0.34       277
+weighted avg       0.40      0.34      0.34       277
+
+
+Matriz de Confus�o:
+[[35 15 12]
+ [78 38 29]
+ [25 24 21]]
+
+Import�ncia das Vari�veis:
+dd_dur_60d      23.171748
+autocorr_30d    20.808195
+vov_60d         19.682725
+fgi_vol_30d     19.386896
+mom_7d          16.950435
+
+================================================================================
+RESULTADOS: FUZZY_BTC_H7
+================================================================================
+Melhores Par�metros: {'depth': 4, 'learning_rate': 0.011824545746698594, 'l2_leaf_reg': 11.37217952591471, 'bagging_temperature': 0.9373050665502728}
+Acur�cia: 29.60%
+F1-Score Macro: 0.2672
+Log Loss (Cross-Entropy): 1.1459
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.24      0.52      0.33        62
+           1       0.36      0.30      0.33       145
+           2       0.27      0.10      0.15        70
+
+    accuracy                           0.30       277
+   macro avg       0.29      0.30      0.27       277
+weighted avg       0.31      0.30      0.28       277
+
+
+Matriz de Confus�o:
+[[32 27  3]
+ [86 43 16]
+ [14 49  7]]
+
+Import�ncia das Vari�veis:
+stress_low       13.270754
+macro_stress     11.387193
+stress_high       9.910677
+ac_positive       8.756324
+macro_neutral     8.113078
+ac_negative       7.111985
+macro_calm        7.019168
+stress_mid        6.787434
+vol_low           6.427074
+vol_mid           6.367781
+vol_high          4.677689
+trend_bull        4.399459
+trend_bear        2.989809
+trend_neutral     1.567033
+ac_neutral        1.214539
+
+================================================================================
+RESULTADOS: NORMAL_BTC_H30
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.057429973295371965, 'l2_leaf_reg': 9.755700937605944, 'bagging_temperature': 0.8684395552718919}
+Acur�cia: 30.51%
+F1-Score Macro: 0.2366
+Log Loss (Cross-Entropy): 1.5280
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.07      0.37      0.12        27
+           1       0.66      0.33      0.44       204
+           2       0.19      0.12      0.15        41
+
+    accuracy                           0.31       272
+   macro avg       0.31      0.28      0.24       272
+weighted avg       0.53      0.31      0.37       272
+
+
+Matriz de Confus�o:
+[[ 10  14   3]
+ [118  68  18]
+ [ 15  21   5]]
+
+Import�ncia das Vari�veis:
+dd_dur_60d      33.628644
+vov_60d         20.159262
+fgi_vol_30d     19.822151
+autocorr_30d    16.610120
+mom_7d           9.779824
+
+================================================================================
+RESULTADOS: FUZZY_BTC_H30
+================================================================================
+Melhores Par�metros: {'depth': 6, 'learning_rate': 0.08628519554904165, 'l2_leaf_reg': 0.6440798077001255, 'bagging_temperature': 0.11735699279407495}
+Acur�cia: 33.09%
+F1-Score Macro: 0.3567
+Log Loss (Cross-Entropy): 2.0552
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.08      0.44      0.13        27
+           1       0.67      0.29      0.41       204
+           2       0.67      0.44      0.53        41
+
+    accuracy                           0.33       272
+   macro avg       0.47      0.39      0.36       272
+weighted avg       0.61      0.33      0.40       272
+
+
+Matriz de Confus�o:
+[[ 12  12   3]
+ [138  60   6]
+ [  6  17  18]]
+
+Import�ncia das Vari�veis:
+stress_low       13.718748
+stress_mid       10.933975
+vol_mid           9.529936
+macro_calm        9.389381
+macro_stress      8.542298
+vol_low           7.953000
+macro_neutral     7.351076
+stress_high       7.056489
+vol_high          6.483304
+ac_negative       6.059865
+ac_positive       4.466453
+trend_bull        2.824547
+trend_bear        2.446196
+trend_neutral     2.079144
+ac_neutral        1.165588
+
+================================================================================
+RESULTADOS: NORMAL_DOGE_H1
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.012026517934822933, 'l2_leaf_reg': 27.99276650074865, 'bagging_temperature': 0.9095495323740422}
+Acur�cia: 36.69%
+F1-Score Macro: 0.3642
+Log Loss (Cross-Entropy): 1.1071
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.35      0.42      0.38        79
+           1       0.53      0.37      0.44       119
+           2       0.25      0.31      0.28        80
+
+    accuracy                           0.37       278
+   macro avg       0.38      0.37      0.36       278
+weighted avg       0.40      0.37      0.37       278
+
+
+Matriz de Confus�o:
+[[33 17 29]
+ [29 44 46]
+ [33 22 25]]
+
+Import�ncia das Vari�veis:
+mom_7d          25.685802
+autocorr_30d    20.702573
+vov_60d         19.978911
+fgi_vol_30d     17.850792
+dd_dur_60d      15.781922
+
+================================================================================
+RESULTADOS: FUZZY_DOGE_H1
+================================================================================
+Melhores Par�metros: {'depth': 6, 'learning_rate': 0.04170553216181044, 'l2_leaf_reg': 0.7154763794444932, 'bagging_temperature': 0.9699098521619943}
+Acur�cia: 32.01%
+F1-Score Macro: 0.3192
+Log Loss (Cross-Entropy): 1.2958
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.31      0.37      0.34        79
+           1       0.57      0.20      0.30       119
+           2       0.25      0.45      0.32        80
+
+    accuracy                           0.32       278
+   macro avg       0.38      0.34      0.32       278
+weighted avg       0.41      0.32      0.32       278
+
+
+Matriz de Confus�o:
+[[29  9 41]
+ [30 24 65]
+ [35  9 36]]
+
+Import�ncia das Vari�veis:
+ac_negative      11.383756
+trend_bear        9.412229
+vol_high          9.257983
+macro_stress      8.715334
+macro_calm        8.674130
+macro_neutral     8.628712
+vol_mid           7.429223
+stress_mid        7.356237
+trend_bull        6.941665
+vol_low           5.804370
+trend_neutral     4.235517
+stress_high       3.537106
+stress_low        3.305633
+ac_positive       2.969719
+ac_neutral        2.348385
+
+================================================================================
+RESULTADOS: NORMAL_DOGE_H7
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.09614586308341946, 'l2_leaf_reg': 6.867343054027906, 'bagging_temperature': 0.9261826261924089}
+Acur�cia: 22.74%
+F1-Score Macro: 0.2217
+Log Loss (Cross-Entropy): 1.7375
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.14      0.17      0.16        71
+           1       0.31      0.25      0.28       114
+           2       0.22      0.25      0.23        92
+
+    accuracy                           0.23       277
+   macro avg       0.23      0.22      0.22       277
+weighted avg       0.24      0.23      0.23       277
+
+
+Matriz de Confus�o:
+[[12 25 34]
+ [38 28 48]
+ [33 36 23]]
+
+Import�ncia das Vari�veis:
+autocorr_30d    21.396430
+vov_60d         21.232638
+mom_7d          20.361975
+fgi_vol_30d     19.541569
+dd_dur_60d      17.467388
+
+================================================================================
+RESULTADOS: FUZZY_DOGE_H7
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.09570297116208765, 'l2_leaf_reg': 15.390008288564314, 'bagging_temperature': 0.5092344256332252}
+Acur�cia: 28.16%
+F1-Score Macro: 0.2373
+Log Loss (Cross-Entropy): 1.3552
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.16      0.13      0.14        71
+           1       0.26      0.10      0.14       114
+           2       0.33      0.63      0.43        92
+
+    accuracy                           0.28       277
+   macro avg       0.25      0.28      0.24       277
+weighted avg       0.25      0.28      0.24       277
+
+
+Matriz de Confus�o:
+[[ 9 14 48]
+ [32 11 71]
+ [16 18 58]]
+
+Import�ncia das Vari�veis:
+ac_negative      13.678300
+stress_mid       10.256631
+vol_high         10.174051
+macro_stress      8.874223
+macro_neutral     8.670251
+vol_mid           8.269589
+macro_calm        6.751055
+vol_low           6.305367
+trend_bear        5.257243
+trend_bull        5.257227
+stress_high       5.154419
+stress_low        4.409844
+ac_positive       2.951256
+trend_neutral     2.079725
+ac_neutral        1.910818
+
+================================================================================
+RESULTADOS: NORMAL_DOGE_H30
+================================================================================
+Melhores Par�metros: {'depth': 4, 'learning_rate': 0.07067616677853701, 'l2_leaf_reg': 22.749158478752538, 'bagging_temperature': 0.24018737527618045}
+Acur�cia: 51.10%
+F1-Score Macro: 0.4621
+Log Loss (Cross-Entropy): 1.2066
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.38      0.24      0.29        51
+           1       0.67      0.41      0.51       133
+           2       0.46      0.82      0.59        88
+
+    accuracy                           0.51       272
+   macro avg       0.50      0.49      0.46       272
+weighted avg       0.55      0.51      0.49       272
+
+
+Matriz de Confus�o:
+[[12 13 26]
+ [18 55 60]
+ [ 2 14 72]]
+
+Import�ncia das Vari�veis:
+dd_dur_60d      31.447487
+vov_60d         25.342278
+fgi_vol_30d     21.036572
+autocorr_30d    16.744847
+mom_7d           5.428816
+
+================================================================================
+RESULTADOS: FUZZY_DOGE_H30
+================================================================================
+Melhores Par�metros: {'depth': 5, 'learning_rate': 0.006952103658959621, 'l2_leaf_reg': 23.847555617823076, 'bagging_temperature': 0.32636110424166054}
+Acur�cia: 45.22%
+F1-Score Macro: 0.3842
+Log Loss (Cross-Entropy): 1.0595
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.86      0.12      0.21        51
+           1       0.51      0.56      0.53       133
+           2       0.36      0.49      0.41        88
+
+    accuracy                           0.45       272
+   macro avg       0.58      0.39      0.38       272
+weighted avg       0.53      0.45      0.43       272
+
+
+Matriz de Confus�o:
+[[ 6 25 20]
+ [ 1 74 58]
+ [ 0 45 43]]
+
+Import�ncia das Vari�veis:
+ac_negative      16.177072
+vol_low          12.951951
+stress_mid       11.800916
+macro_neutral    10.778174
+macro_calm        9.402007
+vol_high          8.693682
+stress_low        7.467147
+stress_high       7.373513
+vol_mid           6.651307
+macro_stress      6.339623
+ac_positive       1.412642
+trend_bear        0.402551
+trend_bull        0.230900
+trend_neutral     0.184217
+ac_neutral        0.134297
+
+================================================================================
+RESULTADOS: NORMAL_DOT_H1
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.07148767423842468, 'l2_leaf_reg': 8.82082611027311, 'bagging_temperature': 0.07052831735644502}
+Acur�cia: 37.41%
+F1-Score Macro: 0.3337
+Log Loss (Cross-Entropy): 1.2280
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.43      0.25      0.32       111
+           1       0.28      0.17      0.21        63
+           2       0.38      0.62      0.47       104
+
+    accuracy                           0.37       278
+   macro avg       0.36      0.35      0.33       278
+weighted avg       0.37      0.37      0.35       278
+
+
+Matriz de Confus�o:
+[[28 13 70]
+ [14 11 38]
+ [23 16 65]]
+
+Import�ncia das Vari�veis:
+mom_7d          27.265488
+autocorr_30d    20.678100
+fgi_vol_30d     19.040530
+vov_60d         18.508375
+dd_dur_60d      14.507507
+
+================================================================================
+RESULTADOS: FUZZY_DOT_H1
+================================================================================
+Melhores Par�metros: {'depth': 5, 'learning_rate': 0.01852633685985956, 'l2_leaf_reg': 24.731285348522, 'bagging_temperature': 0.8514408457328244}
+Acur�cia: 32.73%
+F1-Score Macro: 0.2645
+Log Loss (Cross-Entropy): 1.1114
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.35      0.18      0.24       111
+           1       0.16      0.08      0.11        63
+           2       0.35      0.63      0.45       104
+
+    accuracy                           0.33       278
+   macro avg       0.29      0.30      0.26       278
+weighted avg       0.31      0.33      0.29       278
+
+
+Matriz de Confus�o:
+[[20 11 80]
+ [14  5 44]
+ [23 15 66]]
+
+Import�ncia das Vari�veis:
+ac_negative      11.456114
+vol_low           9.372626
+macro_stress      8.249553
+macro_neutral     7.935476
+stress_low        7.503595
+trend_bear        7.502547
+trend_bull        7.390870
+vol_high          7.193688
+vol_mid           7.133000
+macro_calm        6.497770
+stress_mid        6.352458
+ac_positive       4.554441
+stress_high       4.112099
+trend_neutral     2.587750
+ac_neutral        2.158013
+
+================================================================================
+RESULTADOS: NORMAL_DOT_H7
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.01708752169440261, 'l2_leaf_reg': 3.1162889720959193, 'bagging_temperature': 0.9922253148876535}
+Acur�cia: 34.66%
+F1-Score Macro: 0.3235
+Log Loss (Cross-Entropy): 1.2436
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.58      0.15      0.23       131
+           1       0.29      0.33      0.31        55
+           2       0.33      0.65      0.43        91
+
+    accuracy                           0.35       277
+   macro avg       0.40      0.37      0.32       277
+weighted avg       0.44      0.35      0.31       277
+
+
+Matriz de Confus�o:
+[[19 24 88]
+ [ 3 18 34]
+ [11 21 59]]
+
+Import�ncia das Vari�veis:
+vov_60d         22.758877
+autocorr_30d    21.383639
+dd_dur_60d      19.105191
+fgi_vol_30d     18.410353
+mom_7d          18.341940
+
+================================================================================
+RESULTADOS: FUZZY_DOT_H7
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.06369762127102269, 'l2_leaf_reg': 9.399980617742347, 'bagging_temperature': 0.5211531427735229}
+Acur�cia: 32.49%
+F1-Score Macro: 0.2413
+Log Loss (Cross-Entropy): 1.4447
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.61      0.15      0.23       131
+           1       0.10      0.04      0.05        55
+           2       0.31      0.76      0.44        91
+
+    accuracy                           0.32       277
+   macro avg       0.34      0.31      0.24       277
+weighted avg       0.41      0.32      0.26       277
+
+
+Matriz de Confus�o:
+[[ 19   4 108]
+ [  5   2  48]
+ [  7  15  69]]
+
+Import�ncia das Vari�veis:
+ac_negative      13.233696
+vol_high          9.791553
+vol_low           9.167967
+stress_low        9.146848
+macro_stress      8.231955
+vol_mid           8.164606
+macro_neutral     7.836886
+stress_mid        7.316593
+trend_bull        6.306404
+macro_calm        6.242314
+trend_bear        5.457757
+ac_positive       3.089373
+stress_high       2.683951
+ac_neutral        2.070841
+trend_neutral     1.259257
+
+================================================================================
+RESULTADOS: NORMAL_DOT_H30
+================================================================================
+Melhores Par�metros: {'depth': 4, 'learning_rate': 0.016033927971784937, 'l2_leaf_reg': 2.762473001793065, 'bagging_temperature': 0.9404472117110084}
+Acur�cia: 30.51%
+F1-Score Macro: 0.2307
+Log Loss (Cross-Entropy): 1.2339
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.34      0.64      0.44       107
+           1       0.26      0.14      0.18        81
+           2       0.13      0.05      0.07        84
+
+    accuracy                           0.31       272
+   macro avg       0.25      0.27      0.23       272
+weighted avg       0.25      0.31      0.25       272
+
+
+Matriz de Confus�o:
+[[68 21 18]
+ [62 11  8]
+ [70 10  4]]
+
+Import�ncia das Vari�veis:
+dd_dur_60d      42.396904
+vov_60d         22.297700
+fgi_vol_30d     16.478547
+autocorr_30d    12.265375
+mom_7d           6.561474
+
+================================================================================
+RESULTADOS: FUZZY_DOT_H30
+================================================================================
+Melhores Par�metros: {'depth': 5, 'learning_rate': 0.034179698914731035, 'l2_leaf_reg': 29.770315378755758, 'bagging_temperature': 0.5843591651953027}
+Acur�cia: 37.87%
+F1-Score Macro: 0.2934
+Log Loss (Cross-Entropy): 1.5256
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.39      0.68      0.50       107
+           1       0.11      0.01      0.02        81
+           2       0.37      0.35      0.36        84
+
+    accuracy                           0.38       272
+   macro avg       0.29      0.35      0.29       272
+weighted avg       0.30      0.38      0.31       272
+
+
+Matriz de Confus�o:
+[[73  0 34]
+ [65  1 15]
+ [47  8 29]]
+
+Import�ncia das Vari�veis:
+stress_low       17.799381
+stress_high      11.106550
+stress_mid       10.460454
+ac_negative       9.848109
+vol_mid           9.189407
+macro_calm        8.641052
+vol_low           8.362151
+macro_neutral     7.640954
+vol_high          7.503185
+macro_stress      2.778728
+trend_bull        1.833031
+ac_positive       1.653623
+trend_bear        1.454796
+trend_neutral     1.109602
+ac_neutral        0.618977
+
+================================================================================
+RESULTADOS: NORMAL_ETH_H1
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.01964589682957212, 'l2_leaf_reg': 15.842862803139415, 'bagging_temperature': 0.5179136392047717}
+Acur�cia: 39.93%
+F1-Score Macro: 0.3340
+Log Loss (Cross-Entropy): 1.0938
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.40      0.10      0.15        84
+           1       0.46      0.61      0.52       127
+           2       0.29      0.37      0.32        67
+
+    accuracy                           0.40       278
+   macro avg       0.38      0.36      0.33       278
+weighted avg       0.40      0.40      0.36       278
+
+
+Matriz de Confus�o:
+[[ 8 54 22]
+ [ 9 78 40]
+ [ 3 39 25]]
+
+Import�ncia das Vari�veis:
+mom_7d          24.506395
+autocorr_30d    22.792241
+fgi_vol_30d     18.103074
+vov_60d         17.512983
+dd_dur_60d      17.085307
+
+================================================================================
+RESULTADOS: FUZZY_ETH_H1
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.015590014226761156, 'l2_leaf_reg': 0.3529853735503857, 'bagging_temperature': 0.7176444950578248}
+Acur�cia: 34.89%
+F1-Score Macro: 0.3462
+Log Loss (Cross-Entropy): 1.1799
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.31      0.37      0.34        84
+           1       0.52      0.31      0.39       127
+           2       0.26      0.39      0.31        67
+
+    accuracy                           0.35       278
+   macro avg       0.36      0.36      0.35       278
+weighted avg       0.39      0.35      0.36       278
+
+
+Matriz de Confus�o:
+[[31 21 32]
+ [45 40 42]
+ [25 16 26]]
+
+Import�ncia das Vari�veis:
+ac_negative      11.015175
+macro_neutral     8.692958
+vol_low           8.549011
+macro_calm        8.131326
+trend_bull        7.867652
+trend_bear        7.626170
+vol_mid           7.551452
+macro_stress      7.475438
+vol_high          6.633263
+stress_mid        6.016573
+stress_low        4.754202
+trend_neutral     4.706481
+ac_positive       3.796835
+stress_high       3.696133
+ac_neutral        3.487331
+
+================================================================================
+RESULTADOS: NORMAL_ETH_H7
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.03036298082431438, 'l2_leaf_reg': 15.6036750263696, 'bagging_temperature': 0.6783901040556102}
+Acur�cia: 38.99%
+F1-Score Macro: 0.3360
+Log Loss (Cross-Entropy): 1.1437
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.44      0.21      0.29        89
+           1       0.43      0.66      0.52       116
+           2       0.23      0.18      0.20        72
+
+    accuracy                           0.39       277
+   macro avg       0.37      0.35      0.34       277
+weighted avg       0.38      0.39      0.36       277
+
+
+Matriz de Confus�o:
+[[19 52 18]
+ [15 76 25]
+ [ 9 50 13]]
+
+Import�ncia das Vari�veis:
+vov_60d         22.187209
+dd_dur_60d      20.757566
+fgi_vol_30d     19.797199
+autocorr_30d    19.121728
+mom_7d          18.136298
+
+================================================================================
+RESULTADOS: FUZZY_ETH_H7
+================================================================================
+Melhores Par�metros: {'depth': 5, 'learning_rate': 0.08132058836476576, 'l2_leaf_reg': 10.58490703278546, 'bagging_temperature': 0.6893009751896548}
+Acur�cia: 29.96%
+F1-Score Macro: 0.2900
+Log Loss (Cross-Entropy): 1.4170
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.27      0.16      0.20        89
+           1       0.48      0.28      0.35       116
+           2       0.23      0.51      0.32        72
+
+    accuracy                           0.30       277
+   macro avg       0.33      0.32      0.29       277
+weighted avg       0.35      0.30      0.29       277
+
+
+Matriz de Confus�o:
+[[14 17 58]
+ [21 32 63]
+ [17 18 37]]
+
+Import�ncia das Vari�veis:
+ac_negative      11.102199
+macro_calm       11.003513
+vol_low          10.064011
+stress_mid        9.403345
+stress_low        8.606892
+vol_mid           8.501126
+macro_stress      7.421596
+macro_neutral     7.043295
+vol_high          7.000426
+trend_bear        5.507332
+trend_bull        4.139350
+stress_high       3.206179
+ac_positive       3.142907
+trend_neutral     1.965453
+ac_neutral        1.892374
+
+================================================================================
+RESULTADOS: NORMAL_ETH_H30
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.018019825188446078, 'l2_leaf_reg': 27.3046077004872, 'bagging_temperature': 0.06982989792916765}
+Acur�cia: 42.28%
+F1-Score Macro: 0.4221
+Log Loss (Cross-Entropy): 1.0709
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.34      0.43      0.38        82
+           1       0.43      0.47      0.45       111
+           2       0.57      0.35      0.44        79
+
+    accuracy                           0.42       272
+   macro avg       0.45      0.42      0.42       272
+weighted avg       0.44      0.42      0.42       272
+
+
+Matriz de Confus�o:
+[[35 38  9]
+ [47 52 12]
+ [20 31 28]]
+
+Import�ncia das Vari�veis:
+dd_dur_60d      31.979745
+fgi_vol_30d     21.013756
+vov_60d         20.506880
+autocorr_30d    19.112973
+mom_7d           7.386646
+
+================================================================================
+RESULTADOS: FUZZY_ETH_H30
+================================================================================
+Melhores Par�metros: {'depth': 5, 'learning_rate': 0.0969595178704802, 'l2_leaf_reg': 15.29387299272398, 'bagging_temperature': 0.9013954283326381}
+Acur�cia: 35.66%
+F1-Score Macro: 0.3125
+Log Loss (Cross-Entropy): 1.6822
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.35      0.82      0.49        82
+           1       0.39      0.10      0.16       111
+           2       0.37      0.24      0.29        79
+
+    accuracy                           0.36       272
+   macro avg       0.37      0.39      0.31       272
+weighted avg       0.37      0.36      0.30       272
+
+
+Matriz de Confus�o:
+[[67  6  9]
+ [76 11 24]
+ [49 11 19]]
+
+Import�ncia das Vari�veis:
+stress_low       13.130633
+stress_mid       13.090597
+ac_negative      13.047819
+macro_neutral     9.499000
+vol_low           7.938603
+macro_calm        7.283149
+macro_stress      6.857577
+vol_high          6.845549
+vol_mid           6.284326
+stress_high       6.129223
+trend_bear        3.100754
+trend_bull        2.614300
+ac_positive       2.277396
+trend_neutral     1.059451
+ac_neutral        0.841623
+
+================================================================================
+RESULTADOS: NORMAL_LINK_H1
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.021795421146961584, 'l2_leaf_reg': 2.9502310020306415, 'bagging_temperature': 0.6651913887473574}
+Acur�cia: 41.37%
+F1-Score Macro: 0.2729
+Log Loss (Cross-Entropy): 1.1635
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.33      0.07      0.11        87
+           1       0.43      0.87      0.58       119
+           2       0.29      0.08      0.13        72
+
+    accuracy                           0.41       278
+   macro avg       0.35      0.34      0.27       278
+weighted avg       0.36      0.41      0.32       278
+
+
+Matriz de Confus�o:
+[[  6  75   6]
+ [  7 103   9]
+ [  5  61   6]]
+
+Import�ncia das Vari�veis:
+mom_7d          23.776632
+autocorr_30d    21.796898
+fgi_vol_30d     18.689051
+dd_dur_60d      17.914812
+vov_60d         17.822607
+
+================================================================================
+RESULTADOS: FUZZY_LINK_H1
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.07037973763951795, 'l2_leaf_reg': 27.79943953519038, 'bagging_temperature': 0.5300081908906684}
+Acur�cia: 42.45%
+F1-Score Macro: 0.3751
+Log Loss (Cross-Entropy): 1.1070
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.46      0.18      0.26        87
+           1       0.48      0.66      0.55       119
+           2       0.30      0.32      0.31        72
+
+    accuracy                           0.42       278
+   macro avg       0.41      0.39      0.38       278
+weighted avg       0.42      0.42      0.40       278
+
+
+Matriz de Confus�o:
+[[16 45 26]
+ [12 79 28]
+ [ 7 42 23]]
+
+Import�ncia das Vari�veis:
+ac_negative      12.107585
+stress_mid        9.955933
+macro_stress      9.029684
+vol_high          8.161704
+trend_bear        7.853584
+macro_neutral     7.752701
+vol_mid           7.502005
+trend_bull        7.137153
+vol_low           6.424468
+macro_calm        6.208377
+stress_high       4.782673
+stress_low        4.036153
+ac_positive       3.430073
+ac_neutral        3.387469
+trend_neutral     2.230438
+
+================================================================================
+RESULTADOS: NORMAL_LINK_H7
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.040738124682748, 'l2_leaf_reg': 1.539155269983388, 'bagging_temperature': 0.5106291429923282}
+Acur�cia: 42.96%
+F1-Score Macro: 0.3687
+Log Loss (Cross-Entropy): 1.4944
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.42      0.22      0.29        76
+           1       0.45      0.74      0.56       115
+           2       0.35      0.20      0.25        86
+
+    accuracy                           0.43       277
+   macro avg       0.41      0.39      0.37       277
+weighted avg       0.41      0.43      0.39       277
+
+
+Matriz de Confus�o:
+[[17 48 11]
+ [10 85 20]
+ [13 56 17]]
+
+Import�ncia das Vari�veis:
+vov_60d         23.829677
+fgi_vol_30d     20.508109
+autocorr_30d    18.896766
+dd_dur_60d      18.562411
+mom_7d          18.203038
+
+================================================================================
+RESULTADOS: FUZZY_LINK_H7
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.030537509407631884, 'l2_leaf_reg': 1.4858502465790817, 'bagging_temperature': 0.4698417547213384}
+Acur�cia: 30.32%
+F1-Score Macro: 0.2919
+Log Loss (Cross-Entropy): 1.3649
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.28      0.17      0.21        76
+           1       0.29      0.30      0.29       115
+           2       0.32      0.43      0.37        86
+
+    accuracy                           0.30       277
+   macro avg       0.30      0.30      0.29       277
+weighted avg       0.30      0.30      0.29       277
+
+
+Matriz de Confus�o:
+[[13 41 22]
+ [25 34 56]
+ [ 8 41 37]]
+
+Import�ncia das Vari�veis:
+ac_negative      10.596447
+stress_mid       10.363667
+vol_mid           9.932082
+macro_stress      8.519849
+vol_high          8.409630
+macro_neutral     8.023291
+vol_low           7.794601
+macro_calm        7.744343
+trend_bull        6.383604
+stress_low        5.320987
+trend_bear        4.760852
+stress_high       4.690005
+ac_positive       3.213904
+ac_neutral        2.674800
+trend_neutral     1.571938
+
+================================================================================
+RESULTADOS: NORMAL_LINK_H30
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.048901004466343725, 'l2_leaf_reg': 9.871937782521506, 'bagging_temperature': 0.9153678938535447}
+Acur�cia: 35.29%
+F1-Score Macro: 0.2403
+Log Loss (Cross-Entropy): 1.2352
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.18      0.15      0.16        47
+           1       0.42      0.63      0.51       137
+           2       0.10      0.03      0.05        88
+
+    accuracy                           0.35       272
+   macro avg       0.23      0.27      0.24       272
+weighted avg       0.28      0.35      0.30       272
+
+
+Matriz de Confus�o:
+[[ 7 36  4]
+ [27 86 24]
+ [ 4 81  3]]
+
+Import�ncia das Vari�veis:
+dd_dur_60d      29.445968
+autocorr_30d    21.279445
+vov_60d         19.872900
+fgi_vol_30d     17.424924
+mom_7d          11.976763
+
+================================================================================
+RESULTADOS: FUZZY_LINK_H30
+================================================================================
+Melhores Par�metros: {'depth': 3, 'learning_rate': 0.07583490184889756, 'l2_leaf_reg': 28.81446501039749, 'bagging_temperature': 0.6779243238325082}
+Acur�cia: 43.38%
+F1-Score Macro: 0.3600
+Log Loss (Cross-Entropy): 1.1372
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.09      0.11      0.10        47
+           1       0.56      0.58      0.57       137
+           2       0.46      0.38      0.41        88
+
+    accuracy                           0.43       272
+   macro avg       0.37      0.36      0.36       272
+weighted avg       0.45      0.43      0.44       272
+
+
+Matriz de Confus�o:
+[[ 5 25 17]
+ [35 80 22]
+ [17 38 33]]
+
+Import�ncia das Vari�veis:
+stress_mid       19.500287
+stress_high      16.316548
+ac_negative      11.922677
+macro_stress      9.590934
+vol_mid           7.232436
+vol_high          6.869686
+vol_low           5.716723
+stress_low        5.257104
+macro_neutral     5.105073
+ac_positive       4.817466
+macro_calm        4.662164
+trend_bear        1.280004
+ac_neutral        1.094858
+trend_bull        0.423032
+trend_neutral     0.211008
+
+================================================================================
+RESULTADOS: NORMAL_SOL_H1
+================================================================================
+Melhores Par�metros: {'depth': 5, 'learning_rate': 0.02714570951975397, 'l2_leaf_reg': 14.242038823284663, 'bagging_temperature': 0.7917744579497273}
+Acur�cia: 49.64%
+F1-Score Macro: 0.3427
+Log Loss (Cross-Entropy): 1.0653
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.75      0.04      0.08        70
+           1       0.53      0.83      0.64       141
+           2       0.35      0.27      0.30        67
+
+    accuracy                           0.50       278
+   macro avg       0.54      0.38      0.34       278
+weighted avg       0.54      0.50      0.42       278
+
+
+Matriz de Confus�o:
+[[  3  56  11]
+ [  1 117  23]
+ [  0  49  18]]
+
+Import�ncia das Vari�veis:
+mom_7d          22.873149
+autocorr_30d    22.070913
+vov_60d         20.464469
+fgi_vol_30d     19.323659
+dd_dur_60d      15.267810
+
+================================================================================
+RESULTADOS: FUZZY_SOL_H1
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.03350275856698354, 'l2_leaf_reg': 6.833708550447831, 'bagging_temperature': 0.8703461894233004}
+Acur�cia: 44.60%
+F1-Score Macro: 0.3544
+Log Loss (Cross-Entropy): 1.0992
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.27      0.16      0.20        70
+           1       0.52      0.69      0.59       141
+           2       0.32      0.24      0.27        67
+
+    accuracy                           0.45       278
+   macro avg       0.37      0.36      0.35       278
+weighted avg       0.41      0.45      0.42       278
+
+
+Matriz de Confus�o:
+[[11 49 10]
+ [20 97 24]
+ [10 41 16]]
+
+Import�ncia das Vari�veis:
+ac_negative      9.717586
+macro_calm       9.242980
+macro_neutral    8.886557
+macro_stress     8.386095
+vol_mid          8.211616
+trend_bear       7.648135
+vol_high         7.625948
+trend_bull       7.521766
+vol_low          7.118838
+stress_mid       6.133551
+stress_low       5.322746
+ac_positive      4.744674
+ac_neutral       4.657363
+stress_high      2.944966
+trend_neutral    1.837178
+
+================================================================================
+RESULTADOS: NORMAL_SOL_H7
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.015384375376753611, 'l2_leaf_reg': 0.5972620781127047, 'bagging_temperature': 0.9654498742189414}
+Acur�cia: 45.13%
+F1-Score Macro: 0.3677
+Log Loss (Cross-Entropy): 1.2584
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.60      0.09      0.16        66
+           1       0.53      0.61      0.57       142
+           2       0.31      0.48      0.38        69
+
+    accuracy                           0.45       277
+   macro avg       0.48      0.39      0.37       277
+weighted avg       0.49      0.45      0.42       277
+
+
+Matriz de Confus�o:
+[[ 6 40 20]
+ [ 4 86 52]
+ [ 0 36 33]]
+
+Import�ncia das Vari�veis:
+vov_60d         22.031700
+fgi_vol_30d     21.003120
+dd_dur_60d      20.208616
+mom_7d          18.690740
+autocorr_30d    18.065824
+
+================================================================================
+RESULTADOS: FUZZY_SOL_H7
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.02657116217582252, 'l2_leaf_reg': 0.1779065665587416, 'bagging_temperature': 0.9006174767995749}
+Acur�cia: 33.21%
+F1-Score Macro: 0.2652
+Log Loss (Cross-Entropy): 1.2586
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.06      0.02      0.02        66
+           1       0.57      0.38      0.46       142
+           2       0.22      0.54      0.31        69
+
+    accuracy                           0.33       277
+   macro avg       0.29      0.31      0.27       277
+weighted avg       0.36      0.33      0.32       277
+
+
+Matriz de Confus�o:
+[[ 1 17 48]
+ [ 6 54 82]
+ [ 9 23 37]]
+
+Import�ncia das Vari�veis:
+vol_high         10.527544
+macro_stress     10.224219
+macro_neutral     8.845653
+macro_calm        8.697852
+ac_negative       8.684579
+stress_mid        7.647577
+vol_low           7.323135
+vol_mid           7.169305
+stress_low        7.157329
+trend_bear        5.687858
+ac_positive       4.332720
+trend_bull        4.190336
+stress_high       4.170923
+ac_neutral        3.646590
+trend_neutral     1.694382
+
+================================================================================
+RESULTADOS: NORMAL_SOL_H30
+================================================================================
+Melhores Par�metros: {'depth': 7, 'learning_rate': 0.007340701401993692, 'l2_leaf_reg': 7.457418760678318, 'bagging_temperature': 0.13894963389792025}
+Acur�cia: 37.50%
+F1-Score Macro: 0.3323
+Log Loss (Cross-Entropy): 1.0933
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.18      0.23      0.20        39
+           1       0.61      0.36      0.45       171
+           2       0.26      0.50      0.34        62
+
+    accuracy                           0.38       272
+   macro avg       0.35      0.36      0.33       272
+weighted avg       0.47      0.38      0.39       272
+
+
+Matriz de Confus�o:
+[[ 9 13 17]
+ [38 62 71]
+ [ 4 27 31]]
+
+Import�ncia das Vari�veis:
+dd_dur_60d      34.045897
+vov_60d         22.498742
+fgi_vol_30d     21.941155
+autocorr_30d    14.665545
+mom_7d           6.848660
+
+================================================================================
+RESULTADOS: FUZZY_SOL_H30
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.029720943434349115, 'l2_leaf_reg': 24.317987218126625, 'bagging_temperature': 0.6926301104328029}
+Acur�cia: 40.44%
+F1-Score Macro: 0.2908
+Log Loss (Cross-Entropy): 1.0921
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.02      0.03      0.02        39
+           1       0.65      0.52      0.58       171
+           2       0.23      0.32      0.27        62
+
+    accuracy                           0.40       272
+   macro avg       0.30      0.29      0.29       272
+weighted avg       0.47      0.40      0.43       272
+
+
+Matriz de Confus�o:
+[[ 1 30  8]
+ [24 89 58]
+ [25 17 20]]
+
+Import�ncia das Vari�veis:
+stress_high      12.219135
+stress_mid       11.780103
+stress_low       11.474436
+vol_high         11.067221
+macro_neutral     9.555854
+macro_calm        9.335620
+ac_negative       7.856269
+vol_low           6.781702
+vol_mid           6.604932
+macro_stress      6.585753
+ac_positive       2.974311
+trend_bear        1.641282
+ac_neutral        1.321885
+trend_bull        0.682299
+trend_neutral     0.119200
+
+================================================================================
+RESULTADOS: NORMAL_XRP_H1
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.02333553075173831, 'l2_leaf_reg': 1.5908792032847607, 'bagging_temperature': 0.857094131801595}
+Acur�cia: 32.01%
+F1-Score Macro: 0.2925
+Log Loss (Cross-Entropy): 1.2640
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.24      0.14      0.18        70
+           1       0.40      0.40      0.40       126
+           2       0.26      0.35      0.30        82
+
+    accuracy                           0.32       278
+   macro avg       0.30      0.30      0.29       278
+weighted avg       0.32      0.32      0.31       278
+
+
+Matriz de Confus�o:
+[[10 35 25]
+ [19 50 57]
+ [13 40 29]]
+
+Import�ncia das Vari�veis:
+mom_7d          25.264206
+autocorr_30d    21.446028
+fgi_vol_30d     19.642236
+vov_60d         18.180555
+dd_dur_60d      15.466975
+
+================================================================================
+RESULTADOS: FUZZY_XRP_H1
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.02808009623131303, 'l2_leaf_reg': 0.5413896353617004, 'bagging_temperature': 0.9866161322633197}
+Acur�cia: 29.86%
+F1-Score Macro: 0.2732
+Log Loss (Cross-Entropy): 1.2368
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.17      0.11      0.14        70
+           1       0.39      0.31      0.35       126
+           2       0.27      0.44      0.33        82
+
+    accuracy                           0.30       278
+   macro avg       0.28      0.29      0.27       278
+weighted avg       0.30      0.30      0.29       278
+
+
+Matriz de Confus�o:
+[[ 8 29 33]
+ [23 39 64]
+ [15 31 36]]
+
+Import�ncia das Vari�veis:
+ac_negative      11.169099
+trend_bear        9.644789
+macro_neutral     8.999424
+vol_high          8.940697
+macro_calm        8.538478
+trend_bull        7.683083
+stress_mid        7.640490
+macro_stress      7.636778
+vol_mid           6.565116
+vol_low           5.669329
+trend_neutral     4.799744
+stress_high       4.460665
+ac_positive       3.281791
+stress_low        2.558051
+ac_neutral        2.412467
+
+================================================================================
+RESULTADOS: NORMAL_XRP_H7
+================================================================================
+Melhores Par�metros: {'depth': 6, 'learning_rate': 0.08053345863304863, 'l2_leaf_reg': 24.551361413503077, 'bagging_temperature': 0.9785633751848496}
+Acur�cia: 36.82%
+F1-Score Macro: 0.2773
+Log Loss (Cross-Entropy): 1.3746
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.21      0.08      0.12        59
+           1       0.41      0.69      0.51       119
+           2       0.28      0.15      0.20        99
+
+    accuracy                           0.37       277
+   macro avg       0.30      0.31      0.28       277
+weighted avg       0.32      0.37      0.32       277
+
+
+Matriz de Confus�o:
+[[ 5 42 12]
+ [11 82 26]
+ [ 8 76 15]]
+
+Import�ncia das Vari�veis:
+fgi_vol_30d     21.696409
+vov_60d         21.550928
+autocorr_30d    21.084902
+dd_dur_60d      19.243701
+mom_7d          16.424060
+
+================================================================================
+RESULTADOS: FUZZY_XRP_H7
+================================================================================
+Melhores Par�metros: {'depth': 6, 'learning_rate': 0.049494092440651186, 'l2_leaf_reg': 0.814642353123207, 'bagging_temperature': 0.7606293604456787}
+Acur�cia: 39.35%
+F1-Score Macro: 0.3875
+Log Loss (Cross-Entropy): 1.3783
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.44      0.31      0.36        59
+           1       0.39      0.38      0.39       119
+           2       0.38      0.46      0.42        99
+
+    accuracy                           0.39       277
+   macro avg       0.40      0.38      0.39       277
+weighted avg       0.40      0.39      0.39       277
+
+
+Matriz de Confus�o:
+[[18 21 20]
+ [18 45 56]
+ [ 5 48 46]]
+
+Import�ncia das Vari�veis:
+ac_negative      12.522581
+macro_neutral     9.282283
+vol_high          9.005553
+stress_mid        8.726900
+macro_stress      8.628252
+macro_calm        7.961800
+vol_mid           7.907977
+vol_low           7.254354
+trend_bear        5.634299
+trend_bull        5.343945
+stress_low        4.799204
+stress_high       4.685399
+ac_positive       3.273279
+ac_neutral        2.507606
+trend_neutral     2.466569
+
+================================================================================
+RESULTADOS: NORMAL_XRP_H30
+================================================================================
+Melhores Par�metros: {'depth': 6, 'learning_rate': 0.008184155727166229, 'l2_leaf_reg': 9.551355675285368, 'bagging_temperature': 0.9791820412216945}
+Acur�cia: 56.62%
+F1-Score Macro: 0.4258
+Log Loss (Cross-Entropy): 0.9507
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.62      0.29      0.40        17
+           1       0.55      0.97      0.70       142
+           2       0.79      0.10      0.17       113
+
+    accuracy                           0.57       272
+   macro avg       0.65      0.45      0.43       272
+weighted avg       0.65      0.57      0.46       272
+
+
+Matriz de Confus�o:
+[[  5  11   1]
+ [  2 138   2]
+ [  1 101  11]]
+
+Import�ncia das Vari�veis:
+dd_dur_60d      29.258616
+vov_60d         25.297136
+fgi_vol_30d     22.104759
+autocorr_30d    18.100118
+mom_7d           5.239370
+
+================================================================================
+RESULTADOS: FUZZY_XRP_H30
+================================================================================
+Melhores Par�metros: {'depth': 8, 'learning_rate': 0.024453567282316794, 'l2_leaf_reg': 25.66086769923226, 'bagging_temperature': 0.5365793271933692}
+Acur�cia: 40.44%
+F1-Score Macro: 0.3670
+Log Loss (Cross-Entropy): 0.9860
+
+Relat�rio de Classifica��o:
+              precision    recall  f1-score   support
+
+           0       0.26      0.47      0.33        17
+           1       0.48      0.54      0.51       142
+           2       0.31      0.22      0.26       113
+
+    accuracy                           0.40       272
+   macro avg       0.35      0.41      0.37       272
+weighted avg       0.40      0.40      0.39       272
+
+
+Matriz de Confus�o:
+[[ 8  8  1]
+ [10 77 55]
+ [13 75 25]]
+
+Import�ncia das Vari�veis:
+stress_mid       15.681828
+vol_high         11.962404
+ac_negative      10.181831
+macro_neutral     9.872088
+stress_low        9.368981
+vol_low           8.405856
+vol_mid           7.900573
+stress_high       7.227181
+macro_calm        6.660689
+macro_stress      5.876025
+ac_positive       4.040029
+trend_bear        1.677134
+trend_bull        0.494839
+trend_neutral     0.338011
+ac_neutral        0.312530
